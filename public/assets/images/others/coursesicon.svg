@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg width="40px" height="40px" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g transform="translate(-194.000000, -781.000000)" stroke="#5B5B6A">
+                                      <g transform="translate(195.000000, 782.000000)">
+                                        <path d="M6.44650411,0.834509391 L19.5184532,0.834509391 C20.6230227,0.834509391 21.5184532,1.72993989 21.5184532,2.83450939 C21.5184532,3.01518473 21.493971,3.19502692 21.4456749,3.36912764 L16.6163664,20.7780879 C16.3211049,21.8424631 15.2189017,22.4659529 14.1545265,22.1706913 C14.0633879,22.1454092 13.9741575,22.1136939 13.8875071,22.0757844 L1.66779836,16.7296618 C0.722421453,16.3160594 0.246903478,15.2511175 0.570006905,14.2711131 L4.54707498,2.20827541 C4.81738074,1.38841153 5.58323012,0.834509391 6.44650411,0.834509391 Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M5.5,9.5 L16.5,11.5" stroke-linecap="square" fill-rule="nonzero"></path>
+                                        <path d="M4.5,11.5 L15.5,13.5" stroke-linecap="square" fill-rule="nonzero"></path>
+                                        <path d="M3.5,13.5 L14.5,15.5" stroke-linecap="square" fill-rule="nonzero"></path>
+                                        <circle fill-rule="nonzero" cx="8" cy="5" r="1"></circle>
+                                      </g>
+                                    </g>
+                                  </g>
+</svg>

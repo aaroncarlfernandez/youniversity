@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel = "icon" href ="../assets/images/logos/youniversity_notext_big_white.png" type = "image/x-icon"> 
+    <title>Create Course | Youniversity</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+
+  </head>
+  <body id="must-be-logged-in">
+    <div id="__next">
+        <div id="process-status"></div>
+        <div class="ed-grid">
+
+            <nav  id="nav-sidebar" class="ed-grid-sidebar"></nav>
+
+            <nav class="sticky top-0 h-14 sm:h-16 border-gray-300 border-solid border-0 border-b bg-white flex w-full false grid-area-style">
+                <span class="logged-in">
+                    <button id="nav-sidebar-toggle" class="icon-default m-2 mr-0">
+                        <div class="flex ">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" font-size="large" class="fill-current">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                            </svg>
+                        </div>
+                    </button>
+                </span>
+                <a class="ml-3 flex items-center duration-200 cursor-pointer hover:text-black hover:no-underline hover:outline-none focus:text-black focus:no-underline focus:outline-none" href="/learn">
+                    <div class="flex">
+                        <img id="nav-bar-logo" />
+                    </div>
+                </a>
+                <div class="flex flex-auto justify-end items-center h-full">
+                    <div class="mr-2 pt-1.5 logged-in">
+                        <div id="user-icon">
+                            <div class="m-2 cursor-pointer">
+                                <svg width="30" height="30" viewBox="-4 -4 32 32" fill="#fff" class="rounded-full bg-gray-400 ">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="ed-grid-main">
+                <div class="Page-sc-1643uq9-0 bjwBFl mha">
+                    <div class="PageContent-sc-8tufop-0 hGaqbE">
+
+                        <div class="styles__HeaderArea-mbn95o-1 cKWjxe">
+                            <div class="styles__AuthorEditBlockWrapper-mbn95o-2 elCSIE">
+                                <div>
+                                    <div class="AuthorAndTitle-sc-1l2rdhx-0 gwCXdZ">
+                                        <h1 class="text-4xl font-semibold text-center mr-0 sm:text-left mt-0 ml-0 sm:mr-8 mb-4">Create Course</h1>
+                                        <div class="TitleAndTags-pu2aov-0 lgPcJU">
+                                            <div  id="blah" class="CoverImage__Wrap-sc-1dhin5w-2 eTfvRD pr-ha">
+                                                <div class="styles__New-sc-1q7bmbx-1 oUyvq">
+                                                    <button class="Button-sc-1i9ny0d-0 CircleButton-sc-1w51ure-0 styles__AddButton-pe2jvf-2 gxfFIE">
+                                                        <input id="imgInp" type="file" size="4" name="file"/>
+                                                        <input id="imgInpDesign" type="button" class="bHDUnm"/>
+                                                    
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                                            <polyline points="21 15 16 10 5 21"></polyline>
+                                                        </svg>
+                                                    </button>
+                                                    <span class="styles__RecommendedSizeNew-sc-1q7bmbx-6 ddjyEF">
+                                                        <span class="text-xs font-semibold tracking-wide">Size: 1024 x 512px</span>
+                                                    </span>
+                                                </div>
+                                                <div class="CoverImage-sc-1dhin5w-0 bEBxYx">
+                                                    <img id="imageFile" src="../assets/images/others/default.svg" class="CoverImage__Image-sc-1dhin5w-1 fWbdsS">
+                                                </div>
+                                            </div>
+                                            <div class="PageSummary__Authors-der42c-1 dBVTrI">
+                                                <h6 class="m-0">Course Author:</h6>
+                                                <div class="PageSummary__Author-der42c-16 fXOfKh">
+                                                    <a id="courseAuthorDiv" class="AuthorName-sc-19gr1qz-0 fSpRPE">
+                                                        <span id="courseAuthor" class="font-normal"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Page-sc-1643uq9-0 bjwBFl mha">
+                            <div class="styles__Content-mw8czz-4 bOaoYM">
+                                <div class="relative b-status-control"></div>
+                                <div class="styles__CollectionFormStyled-sc-1wqnqc5-0 kXUCDd">
+                                    <div class="editor-form">
+                                        <form id="createCourse" class="form-horizontal" enctype="multipart/form-data">
+                                            <div id="courseTitleDiv" class="form-group form-group-lg b-input-with-label cre-inp cre-bor-reg">
+                                                <span class="label-help">Max 35 chars</span>
+                                                <span class="label-inn">
+                                                    <span class="text-xs font-semibold tracking-wide">
+                                                        <span class="label-text">Title</span>
+                                                    </span>
+                                                </span>
+                                                <input id="courseTitle" placeholder="Give a name to your Course" maxlength="35" class="form-control">
+                                            </div>
+                                            <div id="courseDescriptionDiv" class="form-group form-group-lg b-input-with-label cre-inp cre-bor-reg">
+                                                <span class="label-help">Max 130 chars</span>
+                                                <span class="label-inn">
+                                                    <span class="text-xs font-semibold tracking-wide">
+                                                        <span class="label-text">Description</span>
+                                                    </span>
+                                                </span>
+                                                <textarea id="courseDescription" placeholder="What is this Course about?" maxlength="130" type="textarea" class="form-control"></textarea>
+                                            </div>
+                                            <div class="row mt-25p">
+                                                <div class="CollectionForm___StyledCol-lnwmgm-0 col-xs-8 cre-inp-pri cre-bor-reg mb-6">
+                                                    <div class="CollectionForm___StyledCol2-lnwmgm-1 iKaryF col-xs-6">
+                                                        <div name="price">
+                                                            <div>
+                                                                <span class="text-lg font-semibold false">($) Price</span>
+                                                            </div>
+                                                            <input id="coursePrice" placeholder="0" type="number" step="0.01" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="contained-error m-auto mt-6">Add Course</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="user-panel"></div>
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="../assets/js/currentpage.js"></script>
+    <script type="text/javascript" src="../assets/js/scripts.js"></script>
+    <script type="text/javascript" src="../assets/js/sidebar.js"></script>
+    <script type="text/javascript" src="../assets/js/upload.js"></script>
+    <script type="text/javascript" src="../assets/js/procstat.js"></script>
+    <script type="text/javascript" src="../assets/js/addcourse.js"></script>
+    <script type="text/javascript" src="../assets/js/userpanel.js"></script>
+  </body>
+</html>

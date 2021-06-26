@@ -1,0 +1,370 @@
+<!doctype html>
+<html id="html-index" lang="en" class="overflow-hidden" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel = "icon" href ="./assets/images/logos/youniversity_notext_big_white.png" type = "image/x-icon"> 
+    <title>Home | Youniversity</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/nprogress.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+  </head>
+  <body>
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+
+    <div id="__next" class="sidebar-style-0">
+        <div></div>
+        <!-- Join Page -->
+        <div id="join-page" class="flex items-center justify-center fixed inset-0 bg-alphas-black5 z-index-1300 hide">
+          <div>
+            <div class="bg-white rounded SignupForm___StyledDiv-jsv926-0 dpdyDB">
+              <div>
+                <div class="pl-4 pr-4 pt-4 pb-2"> 
+                  <div class="flex justify-between items-start">
+                    <h4 class="mt-2 mb-2">Join Youniversity</h4>
+                    <button id="joinCloseButton" class="icon-default">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4l5.6 5.6L5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6z"></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="Divider___StyledDiv-sc-15w747s-0 htqpHQ"></div>
+                </div>
+
+                <div class="border-b border-0 border-solid border-gray-200 "></div>
+
+                <div class="pl-4 pr-4 pb-2 pb-2">
+                  <div id="createAccountStatus" class="relative b-status-control"></div>
+                  <form id="registerUser">
+                    <div class="w-full">
+
+                      <div class="w-full inline-flex flex-col mb-2 mt-2">
+                        <div id="firstNameRegisterDiv" class="w-full h-12 pl-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                            <span class="flex items-center fill-current text-error">
+                              <div class="py-2 pl-0 pr-2 flex items-center">
+                                <img src="./assets/images/others/name.svg" height="30">
+                              </div>
+                            </span>
+                            <input id="firstName" placeholder="First name" type="text" class="w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                        </div>
+                        <div id="firstNameError" class="flex justify-between overflow-x-auto"></div>
+                      </div>
+
+                      <div class="w-full inline-flex flex-col mb-2 mt-2">
+                        <div id="lastNameRegisterDiv" class="w-full h-12 pl-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                          <span class="flex items-center fill-current text-error">
+                            <div class="py-2 pl-0 pr-2 flex items-center">
+                              <img src="./assets/images/others/identification.svg" height="30">
+                            </div>
+                          </span>
+                          <input id="lastName" placeholder="Last name" type="text" class="w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                        </div>
+                        <div id="lastNameError" class="flex justify-between overflow-x-auto"></div>
+                      </div>
+
+                      <div class="w-full inline-flex flex-col mb-2 mt-2">
+                        <div id="mobileNumberRegisterDiv" class="w-full h-12 pl-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                          <span class="flex items-center fill-current text-error">
+                            <div class="py-2 pl-0 pr-2 flex items-center">
+                              <img src="./assets/images/others/smartphone.svg" height="30">
+                            </div>
+                          </span>
+                          <input id="mobileNumber" placeholder="Mobile number" type="number" class="w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                        </div>
+                        <div id="mobileNumberError" class="flex justify-between overflow-x-auto"></div>
+                      </div>
+
+                      <div class="w-full inline-flex flex-col mb-2 mt-2">
+                        <div id="userEmailRegisterDiv" class="w-full h-12 pl-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                          <span class="flex items-center fill-current text-error">
+                            <div class="py-2 pl-0 pr-2 flex items-center">
+                              <img src="./assets/images/others/email.svg" height="30">
+                            </div>
+                          </span>
+                          <input id="userEmail" placeholder="Email" type="email" class="w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                        </div>
+                        <div id="userEmailError" class="flex justify-between overflow-x-auto"></div>
+                      </div>
+
+                      <div class="w-full inline-flex flex-col mb-2 mt-2">
+                        <div id="password1RegisterDiv" class="w-full h-12 pl-3.5 pr-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                          <span class="flex items-center fill-current text-error">
+                            <div class="py-2 pl-0 pr-2 flex items-center">
+                              <img src="./assets/images/others/padlock.svg" height="30">
+                            </div>
+                          </span>
+                          <input id="password1" placeholder="Input password" type="password" class="passwordInput w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                            <!-- <button class="showPasswordIcon notShow icon-default -mr-3" type="button">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current">
+                                <path d="M0 0h24v24H0V0z" fill="none"></path>
+                                <path d="M12 6c3.8 0 7.2 2.1 8.8 5.5-1.6 3.4-5 5.5-8.8 5.5s-7.2-2.1-8.8-5.5C4.8 8.1 8.2 6 12 6m0-2C7 4 2.7 7.1 1 11.5a11.8 11.8 0 0022 0C21.3 7.1 17 4 12 4zm0 5a2.5 2.5 0 110 5 2.5 2.5 0 010-5m0-2a4.5 4.5 0 100 9 4.5 4.5 0 000-9z"></path>
+                              </svg>
+                            </button> -->
+                        </div>
+                        <div id="password1Error" class="flex justify-between overflow-x-auto"></div>
+                      </div>
+
+                      <div class="w-full inline-flex flex-col mb-2 mt-2">
+                        <div id="password2RegisterDiv" class="w-full h-12 pl-3.5 pr-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                          <span class="flex items-center fill-current text-error">
+                            <div class="py-2 pl-0 pr-2 flex items-center">
+                              <img src="./assets/images/others/password.svg" height="30">
+                            </div>
+                          </span>
+                          <input id="password2" placeholder="Verify password" type="password" class="passwordInput w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                            <!-- <button class="showPasswordIcon notShow icon-default -mr-3" type="button">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current">
+                                <path d="M0 0h24v24H0V0z" fill="none"></path>
+                                <path d="M12 6c3.8 0 7.2 2.1 8.8 5.5-1.6 3.4-5 5.5-8.8 5.5s-7.2-2.1-8.8-5.5C4.8 8.1 8.2 6 12 6m0-2C7 4 2.7 7.1 1 11.5a11.8 11.8 0 0022 0C21.3 7.1 17 4 12 4zm0 5a2.5 2.5 0 110 5 2.5 2.5 0 010-5m0-2a4.5 4.5 0 100 9 4.5 4.5 0 000-9z"></path>
+                              </svg>
+                            </button> -->
+                        </div>
+                        <div id="password2Error" class="flex justify-between overflow-x-auto"></div>
+                      </div>
+
+                      <button class="contained-primary mx-0 mt-6 w-full" type="submit">Create Account</button>
+
+                      <div class="text-xs font-semibold tracking-wide text-center my-6 text-center">Already have an account? <span id="loginSuggestion" class="ml-auto main-text-color hover:text-black cursor-pointer underline">Log In</span></div>
+                      
+                    </div>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Login -->
+        <div id="login-page" class="flex items-center justify-center fixed inset-0 bg-alphas-black5 z-index-1300 hide">
+          <div>
+            <div class="bg-white rounded LoginForm___StyledDiv-tnukz0-0 iHulor">
+              <div clas="max-width-344">
+                <div class="pl-4 pr-4 pt-4 pb-2"> 
+                  <div class="flex justify-between items-start">
+                    <h4 class="mt-2 mb-2">Welcome Back</h4>
+                    <button id="loginCloseButton" class="icon-default">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4l5.6 5.6L5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6z"></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="Divider___StyledDiv-sc-15w747s-0 htqpHQ"></div>
+                  <p class="font-normal mt-4 mb-2">Sign in and continue learning.</p>
+                </div>
+                <div class="pl-4 pr-4 pt-2 pb-2"> 
+                  <div id="loginStatus" class="relative b-status-control"></div>
+                  <form id="loginUser">
+
+                    <div class="w-full inline-flex flex-col mb-4 mt-2">
+                      <div id="loginEmailLoginDiv" class="w-full h-12 pl-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                        <span class="flex items-center fill-current text-error">
+                          <div class="py-2 pl-0 pr-2 flex items-center">
+                            <img src="./assets/images/others/email.svg" height="30">
+                          </div>
+                        </span>
+                        <input id="loginEmail" name="userEmail" placeholder="Email" type="text" class="w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                      </div>
+                      <div id="loginEmailError" class="flex justify-between overflow-x-auto"></div>
+                    </div>
+
+                    <div class="w-full inline-flex flex-col mb-4">
+                      <div id="loginPasswordLoginDiv" class="w-full h-12 pl-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden pr-3.5 border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                        <span class="flex items-center fill-current text-error">
+                          <div class="py-2 pl-0 pr-2 flex items-center">
+                            <img src="./assets/images/others/password.svg" height="30">
+                          </div>
+                        </span>
+                        <input id="loginPassword" name="password" placeholder="Password" type="password" class="passwordInput w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                          <!-- <button class="showPasswordIcon notShow icon-default -mr-3" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current">
+                              <path d="M0 0h24v24H0V0z" fill="none"></path>
+                              <path d="M12 6c3.8 0 7.2 2.1 8.8 5.5-1.6 3.4-5 5.5-8.8 5.5s-7.2-2.1-8.8-5.5C4.8 8.1 8.2 6 12 6m0-2C7 4 2.7 7.1 1 11.5a11.8 11.8 0 0022 0C21.3 7.1 17 4 12 4zm0 5a2.5 2.5 0 110 5 2.5 2.5 0 010-5m0-2a4.5 4.5 0 100 9 4.5 4.5 0 000-9z"></path>
+                            </svg>
+                          </button> -->
+                      </div>
+                      <div id="loginPasswordError" class="flex justify-between overflow-x-auto"></div>
+                    </div>
+
+                    <button class="contained-primary w-full mt-2 mx-0" type="submit">Login</button>
+                    <div class="text-xs font-semibold tracking-wide mb-4 mt-4 mr-auto ml-auto text-center">Don't have an account? 
+                      <span id="signUpSuggestion" class="main-text-color hover:text-black underline cursor-pointer"> Sign Up</span>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ed-grid">
+            <nav class="sticky top-0 h-14 sm:h-16 border-gray-300 border-solid border-0 border-b bg-white flex w-full false grid-area-style scrolling-navbar">
+
+                <a class="ml-3 flex items-center duration-200 cursor-pointer hover:text-black hover:no-underline hover:outline-none focus:text-black focus:no-underline focus:outline-none">
+                    <div class="flex">
+                        <img id="nav-bar-logo" />
+                    </div>
+                </a>
+
+                <div class="flex flex-auto justify-end items-center h-full">
+
+                    <div class="logged-out h-full">
+                        <div class="flex items-center h-full">
+                            <button id="loginButton" class="m-0 rounded-none p-4 h-full  text-default">Log in</button>
+                            <button id="joinButton" class="m-0 rounded-none p-4 h-full contained-primary">
+                                Join for free
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current icon-right"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16 11H4v2h12v3l4-4-4-4z"></path></svg>
+                              </button>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+            <div class="ed-grid-main">
+              <div class="w-full flex-col items-center bg-white min-h-full logged-out">
+                <div class="w-full -mt-2 sm:mt-0">
+                  <div class="container-fluid">
+                    <div class="row flex flex-row items-center justify-center mt-16 mb-16 lg:mb-20 lg:mt-20">
+                      <div class="col-lg-6 flex flex-col items-center w-full px-4 mb-6">
+                        <h2 class="flex text-center my-0 mt-10">Learn what you want anytime you want</h2>
+                        <p class="flex text-xl font-normal text-center mt-2 mb-4 lg:mt-1">Earn degrees by taking only the courses that you need</p>
+                        <a href="#searchCourses" class="h-full">
+                          <button class="contained-primary mt-4">Explore Courses Now</button>
+                        </a>
+                      </div>
+                      <div id="landing-page-foto" class="col-lg-6 w-full px-4 lg:px-6 mb-2 max-width-600">
+                        <img src="./assets/images/others/landing-page-foto.jpg">
+                      </div>       
+                    </div>
+                  </div>
+                  <div id="youniversity-stats" class="flex justify-center w-full">
+                    <div class="outer-wrap modified-home">
+                      <div class="alison-stats">
+                        <div class="alison-stats-inner clearfix">
+                          <div>
+                            <span class="stats-icon">
+                              <img class="lazyloaded" width="29" height="29" src="./assets/images/others/learners.svg">
+                            </span>
+                            <div id="students-amount" class="stats-amount">0</div>
+                            <div class="stats-title">Students</div>
+                          </div>
+                          <div>
+                            <span class="stats-icon">
+                              <img class="lazyloaded" width="29" height="29" src="./assets/images/others/courses.svg">
+                            </span>
+                            <div id="courses-amount" class="stats-amount">0</div>
+                            <div class="stats-title">Courses</div>
+                          </div>  
+                          <div>
+                            <span class="stats-icon">
+                              <img class="lazyloaded"  width="29" height="29" src="./assets/images/others/graduates.svg">
+                            </span>
+                            <div id="graduates-amount" class="stats-amount">0</div>
+                            <div class="stats-title">Degrees</div>
+                          </div>                       
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="searchCourses" class="w-full bg-white z-index-1">
+                    <div class="relative w-full self-center mt-14 mx-auto pd025-mx1046">
+                      <h2 class="-mt-2 mb-6 text-center">Stop Scrolling. Start Learning.</h2>
+                      <div class="flex flex-row justify-between">
+                          <div class="w-full">
+                            <div class="w-full inline-flex flex-col ">
+                              <label for="Search Courses..." class="whm0-ofh">
+                                <span class="screenreader">Search Courses...</span>
+                              </label>
+                              <div class="w-full h-12 pl-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                                <div class="-ml-3"></div>
+                                <input placeholder="Search Courses..." type="search" id="searchcourse-input" class="w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                                <button id="searchcourse-button" class="contained-primary rounded-none btlr0-bblr0-ml1">
+                                  <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.965 14.255h.79l4.99 5-1.49 1.49-5-4.99v-.79l-.27-.28a6.471 6.471 0 01-4.23 1.57 6.5 6.5 0 116.5-6.5c0 1.61-.59 3.09-1.57 4.23l.28.27zm-9.71-4.5c0 2.49 2.01 4.5 4.5 4.5s4.5-2.01 4.5-4.5-2.01-4.5-4.5-4.5-4.5 2.01-4.5 4.5z" fill="#fff"></path>
+                                  </svg>
+                                  <span class="tailwind-hidden sm:flex">Search</span>
+                                </button>
+                              </div>
+                              <div class="flex justify-between overflow-x-auto">
+                                <div></div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-full">
+                    <div class="flex flex-row justify-start items-center mx-auto py-0 my-8 px-4 text-gray-A100 flex-wrap f1-mx1026">
+                      <div class="tailwind-hidden m-0 mr-2 sm:inline-flex">
+                        <span class="stroke-2 mr-2"> 
+                          <img src="./assets/images/others/coursesicon.svg">
+                        </span>
+                      </div>
+                      <h2 class="text-2xl font-semibold m-0">Our Courses</h2>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div id="course-results" class="row"></div>
+                    <button id="showmore-button" class="outlined-default mx-auto hide">Show More</button>
+                  </div>
+
+                  <div class="w-full mt-auto relative flex-none flex pt-24"> 
+                    <div class="flex justify-center flex-col w-full py-10 px-4 lg:px-6 footer-background">
+                      <div class="flex items-start justify-between flex-col self-center w-full f0-mx1140">
+                        <div class="flex flex-col justify-between w-full">
+                          <div class="flex flex-col my-4 sm:mt-14 items-center sm:items-start text-center sm:text-left">
+                            <a class="mb-1.5" href="/">
+                              <div class="flex items-center text-white bottom-logo">
+                                <img src="./assets/images/logos/youniversity_sidetext_big_white.png">
+                              </div>
+                            </a>
+                            <div class="mt-4 max-w-64 text-white">
+                              <p class="text-base">Be what YOU always wanted to be</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="w-full self-center maxwidth-1140">
+                        <div class="border-bottom border-gray-A200"></div>
+                      </div>
+                      <div class="flex justify-center sm:justify-between my-2 sm:mb-14 self-center w-full flex-col sm:flex-row items-center sm:items-start maxwidth-1140">
+                        <div class="mt-4 ml-4 sm:ml-0 flex items-center justify-start"></div>
+                        <div class="flex items-center text-left text-gray-500 flex-col-reverse sm:flex-row mt-4 sm:mt-0">
+                          <p class="text-xs font-semibold tracking-wide mb-0">Full Stack Developer Portfolio of Aaron Carl Fernandez.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+           </div>
+        <!-- <div></div> -->
+    </div>
+    <div id="homepage-notice"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>
+    <script type="text/javascript" src="./assets/js/popup.js"></script>
+    <script type="text/javascript" src="./assets/js/currentpage.js"></script>
+    <script type="text/javascript" src="./assets/js/scripts.js"></script>
+    <script type="text/javascript" src="./assets/js/loadcourses.js"></script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+    <script type="text/javascript" src="./assets/js/register.js"></script>
+    <script type="text/javascript" src="./assets/js/login.js"></script>
+  </body>
+</html>

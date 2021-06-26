@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link rel = "icon" href ="../assets/images/logos/youniversity_notext_big_white.png" type = "image/x-icon"> 
+    <title>Dashboard | Youniversity</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/nprogress.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+
+  </head>
+  <body id="must-be-logged-in">
+    <div id="__next">
+        <div id="process-status"></div>
+        <div></div>
+        <div class="ed-grid">
+
+            <nav id="nav-sidebar" class="ed-grid-sidebar"></nav>
+
+            <nav class="sticky top-0 h-14 sm:h-16 border-gray-300 border-solid border-0 border-b bg-white flex w-full grid-area-style false">
+                <span class="logged-in">
+                    <button id="nav-sidebar-toggle" class="icon-default m-2 mr-0">
+                        <div class="flex ">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" font-size="large" class="fill-current">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                            </svg>
+                        </div>
+                    </button>
+                </span>
+                <a class="ml-3 flex items-center duration-200 cursor-pointer hover:text-black hover:no-underline hover:outline-none focus:text-black focus:no-underline focus:outline-none" href="/learn">
+                    <div class="flex">
+                      <img id="nav-bar-logo" />
+                    </div>
+                </a>
+                <div class="flex flex-auto justify-end items-center h-full">
+                    <div class="mr-2 pt-1.5 logged-in">
+                        <div id="user-icon">
+                            <div class="m-2 cursor-pointer">
+                                <svg width="30" height="30" viewBox="-4 -4 32 32" fill="#fff" class="rounded-full bg-gray-400 ">
+                                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <div class="ed-grid-main">
+                <div class="w-full flex flex-col bg-white min-w-full relative items-center f10auto">
+                    <div class="w-full bg-white z-index-1">
+                        <div class="relative w-full self-center mt-10 mx-auto pd025-mx1046">
+                            <h2 class="-mt-2 mb-6 text-center">Learn something today!</h2>
+                            <div class="flex flex-row justify-between">
+                                <div class="w-full">
+                                    <div class="w-full inline-flex flex-col ">
+                                        <label for="Search Courses..." class="whm0-ofh">
+                                            <span class="screenreader">Search Courses...</span>
+                                        </label>
+                                        <div class="w-full h-12 pl-3.5 flex-auto text-sm font-normal rounded-sm cursor-text inline-flex items-center hover:bg-alphas-black06 border border-solid overflow-hidden border-gray-400 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                                            <div class="-ml-3"></div>
+                                            <input id="searchcourse-input" placeholder="Search Courses..." type="search" id="Search Courses..." class="w-full h-full border-none px-3.5 bg-transparent focus:outline-none resize-none" value="">
+                                            <button id="searchcourse-button" class="contained-primary rounded-none btlr0-bblr0-ml1">
+                                                <img src="../assets/images/others/searchicon.svg" class="ml-2">
+                                                <span class="tailwind-hidden sm:flex mr-2">Search</span>
+                                            </button>
+                                        </div>
+                                        <div class="flex justify-between overflow-x-auto">
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-full">
+                        <div class="flex flex-row justify-start items-center mx-auto py-0 my-8 px-4 text-gray-A100 flex-wrap f1-mx1026">
+                            <div class="tailwind-hidden m-0 mr-2 sm:inline-flex">
+                              <span class="stroke-2 mr-2">
+                                <img src="../assets/images/others/coursesicon.svg">
+                              </span>
+                            </div>
+                            <h2 class="text-2xl font-semibold m-0">Our Courses</h2>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                          <div class="row"></div>
+                          <div id="course-results" class="row"></div>
+                          <button id="showmore-button" class="outlined-default mx-auto hide">Show More</button>
+                    </div>
+
+                    <div class="w-full mt-auto relative flex-none flex pt-24">
+                      <div class="flex justify-center flex-col w-full py-10 px-4 lg:px-6 footer-background">
+                        <div class="flex items-start justify-between flex-col self-center w-full f0-mx1140">
+                          <div class="flex flex-col justify-between w-full">
+                            <div class="flex flex-col my-4 sm:mt-14 items-center sm:items-start text-center sm:text-left">
+                              <a class="mb-1.5" href="/">
+                                <div class="flex items-center text-white bottom-logo">
+                                  <img src="../assets/images/logos/youniversity_sidetext_big_white.png">
+                                </div>
+                              </a>
+                              <div class="mt-4 max-w-64 text-white">
+                                <p class="text-base">Be what YOU always wanted to be</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="w-full self-center maxwidth-1140">
+                            <div class="border-b border-0 border-solid border-gray-50"></div>
+                          </div>
+                        </div>
+                        <div class="flex justify-center sm:justify-between my-4 sm:mb-14 self-center w-full flex-col sm:flex-row items-center sm:items-start maxwidth-1140">
+                          <div class="mt-4 ml-4 sm:ml-0 flex items-center justify-start"></div>
+                          <div class="flex items-center text-left text-gray-500 flex-col-reverse sm:flex-row mt-4 sm:mt-0">
+                            <p class="text-xs font-semibold tracking-wide mb-0">Full Stack Developer Portfolio of Aaron Carl Fernandez.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="user-panel"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>
+    <script type="text/javascript" src="../assets/js/currentpage.js"></script>
+    <script type="text/javascript" src="../assets/js/scripts.js"></script>
+    <script type="text/javascript" src="../assets/js/sidebar.js"></script>
+    <script type="text/javascript" src="../assets/js/procstat.js"></script>
+    <script type="text/javascript" src="../assets/js/loadcourses.js"></script>
+    <script type="text/javascript" src="../assets/js/courses.js"></script>
+    <script type="text/javascript" src="../assets/js/userpanel.js"></script>
+  </body>
+</html>
